@@ -1,22 +1,33 @@
-let nota = 72
+let nota = 90
 
-switch (nota) {
+switch (true) {
+    case (nota > 100 || nota < 0):
+        console.log('NOTA INVÁLIDA!')
+        break
     case (nota >= 90):
-        console.log('A')
+        letra = "A"
+        console.log(`Você recebeu um ${letra}`)
         break
     case (nota >= 80):
-        console.log('B')
+        letra = "B"
+        console.log(`Você recebeu um ${letra}`)
         break
     case (nota >= 70):
-        console.log('C')
+        letra = "C"
+        console.log(`Você recebeu um ${letra}`)
         break
     case (nota >= 60):
-        console.log('D')
+        letra = "D"
+        console.log(`Você recebeu um ${letra}`)
         break
     case (nota >= 50):
-        console.log('E')
+        letra = "E"
+        console.log(`Você recebeu um ${letra}`)
         break
     case (nota < 50):
-        console.log('F')
+        letra = "F"
+        console.log(`Você recebeu um ${letra}`)
         break
+    default:
+        console.log("VOCÊ NÃO FEZ A PROVA!")
 } 
