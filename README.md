@@ -1,0 +1,1 @@
+Jornada prática de introdução a tecnologia para conhecer o universo da programação a partit da RocketSeat!
