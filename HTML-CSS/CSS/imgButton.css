@@ -1,0 +1,15 @@
+button {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  gap: .4rem;
+
+  font-weight: bolder;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+button img {
+  width: 2rem;
+  height: 2rem;
+}
