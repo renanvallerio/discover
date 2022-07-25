@@ -17,4 +17,3 @@ ev.emit('saySomething', 'Renan')
 ev.emit('saySomethingOnlyOnce', 'Renan')
 ev.emit('saySomethingOnlyOnce', 'Renan')
 ev.emit('saySomethingOnlyOnce', 'Renan')
-
